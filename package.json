@@ -1,0 +1,29 @@
+{
+  "name": "bifrost-indexer",
+  "version": "0.1.0",
+  "description": "BIFROST INDEXER",
+  "main": "index.js",
+  "author": "Edwin Wang <lark930@gmail.com>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "ts-node ./index.ts"
+  },
+  "dependencies": {
+    "@bifrost-network/types": "^1.0",
+    "@orml/indexer": "^0.2.0-beta.65",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/register": "^7.8.3",
+    "@babel/runtime": "^7.8.4",
+    "@polkadot/dev": "^0.32.17",
+    "@polkadot/ts": "^0.2.1",
+    "husky": "^4.2.3",
+    "jest": "^25.1.0",
+    "prettier": "^2.0.1",
+    "pretty-quick": "^2.0.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  }
+}

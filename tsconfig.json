@@ -1,0 +1,14 @@
+{
+  "extends": "./node_modules/@polkadot/dev/config/tsconfig",
+  "exclude": ["build/**/*", "**/build/**/*", "**/__tests__/**/*"],
+  "compilerOptions": {
+    "target": "es2018",
+    "baseUrl": ".",
+    "noUnusedLocals": false,
+    "paths": {
+      "*": ["./*"]
+    },
+    "skipLibCheck": true,
+    "typeRoots": ["./node_modules/@polkadot/ts", "./node_modules/@types"]
+  }
+}
